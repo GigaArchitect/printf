@@ -3,4 +3,5 @@
 int main()
 {
 	_printf("%c", 'p');
+	return (0);
 }
