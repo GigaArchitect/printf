@@ -2,6 +2,6 @@
 
 int main()
 {
-	_printf("%c", 'p');
+	print_buf("%c", 'p');
 	return (0);
 }
