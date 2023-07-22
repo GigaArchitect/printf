@@ -1,7 +1,7 @@
 #include "main.h"
 
-int main(void)
+int main()
 {
-	print_buf("%c", 'p');
+	_printf("%c", 'p');
 	return (0);
 }
