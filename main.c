@@ -1,6 +1,6 @@
 #include "main.h"
 
-int main()
+int main(void)
 {
 	print_buf("%c", 'p');
 	return (0);

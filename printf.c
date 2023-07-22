@@ -13,8 +13,10 @@ int _printf(const char *format, ...)
 	va_list args;
 
 	va_start(args, format);
-	if (format == NULL)
-		return (-1);
+	/*
+	*if (format == NULL)
+	*	return (-1);
+	*/
 	return (print_buf(format, args));
 	va_end(args);
 }

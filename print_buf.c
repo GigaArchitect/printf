@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdarg.h>
 /**
- * _printf - prints formatted output to stdout
+ * print_buf - prints formatted output to stdout
  * @format: the format string
  *
  * Return: the number of characters printed
