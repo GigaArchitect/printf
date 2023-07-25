@@ -1,7 +1,5 @@
 #include "main.h"
 
-// WRITE HANDLE
-
 int handle_write_char(char c, char buffer[],
                       int flags, int width, int precision, int size)
 {
@@ -33,8 +31,6 @@ int handle_write_char(char c, char buffer[],
 
     return (write(1, &buffer[0], 1));
 }
-
-// WRITE NUMBER
 
 int write_number(int is_negative, int ind, char buffer[],
                  int flags, int width, int precision, int size)

@@ -1,7 +1,5 @@
 #include "main.h"
 
-// PRINT POINTER
-
 int print_pointer(va_list types, char buffer[],
                   int flags, int width, int precision, int size)
 {
@@ -42,8 +40,6 @@ int print_pointer(va_list types, char buffer[],
                           width, flags, padd, extra_c, padd_start));
 }
 
-// PRINT NON PRINTABLE
-
 int print_non_printable(va_list types, char buffer[],
                         int flags, int width, int precision, int size)
 {
@@ -72,8 +68,6 @@ int print_non_printable(va_list types, char buffer[],
 
     return (write(1, buffer, i + offset));
 }
-
-// PRINT REVERSE
 
 int print_reverse(va_list types, char buffer[],
                   int flags, int width, int precision, int size)
@@ -106,7 +100,6 @@ int print_reverse(va_list types, char buffer[],
     }
     return (count);
 }
-// PRINT A STRING IN ROT13
 
 int print_rot13string(va_list types, char buffer[],
                       int flags, int width, int precision, int size)
