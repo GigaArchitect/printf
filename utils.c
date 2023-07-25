@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * is_printable - Evaluates if a char is printable
  * @c: Char to be evaluated.
@@ -18,6 +19,7 @@ int is_printable(char c)
  * @buffer: Array of chars.
  * @i: Index at which to start appending.
  * @ascii_code: ASSCI CODE.
+ *
  * Return: Always 3
  */
 int append_hexa_code(char ascii_code, char buffer[], int i)
